@@ -9,4 +9,4 @@ For each ticker, I retrieve the most recent 100 messages on Stocktwits that tag 
 
 The trained BERT model had 81.4% accuracy, 66.7% preicision, and 65.4% recall on the test set.
 The macro one-versus-rest AUC score was 0.886.
-The model was then used to classify the remaining messages (lablled_full_bert.csv), which were then used for subsequent part of the group project.
+The model was then used to classify the remaining messages (lablled_full_bert.csv), which were then used for subsequent parts of the group project.
