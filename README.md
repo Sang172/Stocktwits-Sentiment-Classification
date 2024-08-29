@@ -1,7 +1,7 @@
 # stocktwits_sentiment_classification
-This repository is the code I used as part of a group project at Stanford's machine learning class (CS 129) in the winter quarter of the 2023-2024 academic year.
+This repository contains the code I wrote as part of a group project at Stanford's machine learning class (CS 129) in the winter quarter of the 2023-2024 academic year.
 It classifies Stocktwits messages into either positive, neutral, negative, or spam using BERT.
-Stocktwits is a social media platform similar to X (formerly twitter) that focuses on the discussion of stocks and is widely used by the retail investor community.
+Stocktwits is a social media platform similar to X (formerly Twitter) that focuses on discussing stocks and is widely used by the retail investor community.
 
 stocktwits_scrape.ipynb scrapes Stocktwits messages using classes and functions defined in the src folder (parser.py, scraper.py, utils.py) given the list of tickers (microcap.csv).
 For each ticker, I retrieve the most recent 100 messages on Stocktwits that tag the ticker, which resulted in around 80,000 messages (stocktwits_scraped.csv).
