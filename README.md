@@ -1,4 +1,4 @@
-# stocktwits_sentiment_classification
+# Stocktwits Sentiment Classification
 This repository contains the code I wrote as part of a group project at Stanford's machine learning class (CS 129) in the winter quarter of the 2023-2024 academic year.
 It classifies Stocktwits messages into either positive, neutral, negative, or spam using BERT.
 Stocktwits is a social media platform similar to X (formerly Twitter) that focuses on discussing stocks and is widely used by the retail investor community.
